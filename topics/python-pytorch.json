@@ -1,0 +1,92 @@
+[
+    {
+        "question": "How do you create a virtual environment in Python?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "What is a Python list comprehension, and how is it different from a for loop?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "How do you handle exceptions in Python with try-except blocks?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "What is the purpose of the '__init__' method in a Python class?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "How do you define and use a lambda function in Python?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "How do you create a PyTorch tensor, and how is it different from a NumPy array?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "How do you move a PyTorch tensor to the GPU for faster computation?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "What is the purpose of autograd in PyTorch, and how does it work?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "How do you create a simple feedforward neural network in PyTorch?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "What is the role of an optimizer in PyTorch, and how do you use it?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "How do you save and load a PyTorch model checkpoint?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "What is the difference between 'torch.nn.Module' and 'torch.nn.functional' in PyTorch?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "How do you backpropagate errors in PyTorch?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "How do you perform data augmentation using PyTorch's 'torchvision.transforms' module?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    },
+    {
+        "question": "What is the purpose of a DataLoader in PyTorch, and how do you create one?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:45:00.000000"
+    }
+]

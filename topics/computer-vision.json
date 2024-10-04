@@ -1,0 +1,206 @@
+[
+    {
+        "question": "What is ArcFace, and how does it improve face recognition accuracy?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099260"
+    },
+    {
+        "question": "Explain how an RNN can be used in combination with face ID systems.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099271"
+    },
+    {
+        "question": "What are the key advantages of using YOLO for object detection?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099274"
+    },
+    {
+        "question": "How do false acceptance rate (FAR) and false rejection rate (FRR) impact face recognition systems?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099275"
+    },
+    {
+        "question": "What are common metrics for evaluating the performance of a CNN?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099277"
+    },
+    {
+        "question": "Can you describe the role of anchor boxes in YOLO?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099279"
+    },
+    {
+        "question": "How does ArcFace leverage the concept of angular distance in face recognition?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099280"
+    },
+    {
+        "question": "What is the significance of using a softmax layer in face ID systems?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099282"
+    },
+    {
+        "question": "How do you handle imbalanced datasets when training a CNN for face recognition?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099283"
+    },
+    {
+        "question": "What is the importance of data augmentation in training CNNs for object detection?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099285"
+    },
+    {
+        "question": "What techniques can be used to improve the robustness of face recognition systems against variations in lighting and pose?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099287"
+    },
+    {
+        "question": "How does the YOLO architecture handle multi-scale object detection?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:49.271523"
+    },
+    {
+        "question": "What are the differences between YOLOv3 and YOLOv5?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099290"
+    },
+    {
+        "question": "Can you explain how triplet loss works in the context of face recognition?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099292"
+    },
+    {
+        "question": "What are some common preprocessing steps for images before feeding them into a CNN?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-10-01T10:45:24.185773"
+    },
+    {
+        "question": "How do CNNs and RNNs differ in terms of architecture and application?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099295"
+    },
+    {
+        "question": "What are some potential privacy concerns with using face recognition technology?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099297"
+    },
+    {
+        "question": "What are generative adversarial networks (GANs), and how can they be used in image synthesis?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T12:51:54.645513"
+    },
+    {
+        "question": "Explain the concept of transfer learning and how it can be applied to image classification tasks.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099300"
+    },
+    {
+        "question": "How can feature extraction improve the performance of machine learning models in image recognition?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099302"
+    },
+    {
+        "question": "What are the challenges of face recognition in real-time applications?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099303"
+    },
+    {
+        "question": "Describe the role of convolutional layers in a CNN.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099305"
+    },
+    {
+        "question": "How can you improve the performance of a model using hyperparameter tuning?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099306"
+    },
+    {
+        "question": "What are the differences between supervised and unsupervised learning in the context of image analysis?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099308"
+    },
+    {
+        "question": "How does the Region Proposal Network (RPN) work in Faster R-CNN?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099309"
+    },
+    {
+        "question": "What are the advantages and disadvantages of using deep learning for object detection compared to traditional methods?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099311"
+    },
+    {
+        "question": "Explain the concept of image segmentation and its applications in computer vision.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099312"
+    },
+    {
+        "question": "What is the role of batch normalization in training deep neural networks?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099314"
+    },
+    {
+        "question": "How can reinforcement learning be applied to image recognition tasks?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099315"
+    },
+    {
+        "question": "What are some methods for evaluating the robustness of a neural network against adversarial attacks?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099317"
+    },
+    {
+        "question": "Can you explain how the concept of attention mechanisms works in image processing?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099319"
+    },
+    {
+        "question": "How does the choice of loss function impact the performance of a CNN?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099320"
+    },
+    {
+        "question": "What techniques can be used for real-time object tracking in video streams?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T10:44:28.099322"
+    },
+    {
+        "question": "Explain the concept of optical flow and its applications in motion analysis.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-01T11:06:35.325663"
+    }
+]

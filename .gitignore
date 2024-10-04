@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+env.bak/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Install logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ollama model files
+ollama_model/
+
+# Other
+*.log
+*.DS_Store
+*.db
+*.sqlite3
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# User-specific files
+*.swp
+*~

@@ -1,0 +1,80 @@
+[
+    {
+        "question": "How do you clone a Git repository to your local machine?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "What command is used to check the status of files in a Git repository?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "How do you stage files for a commit in Git?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "What command is used to commit staged changes in Git?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "How do you push committed changes to a remote repository in Git?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "What command is used to pull changes from a remote repository into your local branch?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "How do you create a new branch in Git?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "What command is used to switch to a different branch in Git?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "How do you merge one branch into another in Git?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "How do you resolve merge conflicts in Git?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "What command is used to view the commit history of a Git repository?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "How do you undo the last commit in Git, keeping the changes in your working directory?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "How do you discard uncommitted changes in a file in Git?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    }
+]
