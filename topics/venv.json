@@ -3,54 +3,54 @@
         "question": "How do you create a new Python virtual environment using venv?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.379608"
     },
     {
         "question": "What command is used to activate a Python virtual environment in Linux/Mac?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.379611"
     },
     {
         "question": "What command is used to activate a Python virtual environment in Windows?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.379612"
     },
     {
         "question": "How do you deactivate a virtual environment in Python?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.379613"
     },
     {
         "question": "How do you install a package inside a virtual environment using pip?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.379614"
     },
     {
         "question": "How do you list installed packages inside a virtual environment?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.379615"
     },
     {
         "question": "What is the command to uninstall a package inside a Python virtual environment?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.379616"
     },
     {
         "question": "How can you freeze the installed packages in a virtual environment into a requirements.txt file?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.379617"
     },
     {
         "question": "What command is used to install all packages from a requirements.txt file?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.379618"
     }
 ]

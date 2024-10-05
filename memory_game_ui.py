@@ -1,7 +1,11 @@
+import json
 import os
 import tkinter as tk
+from datetime import datetime
 from tkinter import messagebox, scrolledtext, ttk
+
 from memory_game import MemoryGame
+
 
 class MemoryGameUI:
     def __init__(self, root):
@@ -15,7 +19,9 @@ class MemoryGameUI:
         main_frame = tk.Frame(root, bg="#ffffff", bd=2, relief=tk.GROOVE)
         main_frame.pack(padx=20, pady=20)
 
-        self.topic_label = tk.Label(main_frame, text="Choose a topic:", font=("Helvetica", 12), bg="#ffffff")
+        self.topic_label = tk.Label(
+            main_frame, text="Choose a topic:", font=("Helvetica", 12), bg="#ffffff"
+        )
         self.topic_label.grid(row=0, column=0, padx=10, pady=5)
 
         self.topic_combobox = ttk.Combobox(main_frame, state="readonly")
@@ -24,20 +30,61 @@ class MemoryGameUI:
 
         self.load_topics()
 
-        self.question_label = tk.Label(main_frame, text="Press 'Show Question' to start!", font=("Helvetica", 16, "bold"), bg="#ffffff")
+        self.question_label = tk.Label(
+            main_frame,
+            text="Press 'Show Question' to start!",
+            font=("Helvetica", 16, "bold"),
+            bg="#ffffff",
+        )
         self.question_label.grid(row=1, column=0, columnspan=2, pady=(10, 20))
 
-        self.answer_entry = tk.Entry(main_frame, width=50, font=("Helvetica", 14), bd=2, relief=tk.SUNKEN)
+        self.answer_entry = tk.Entry(
+            main_frame, width=50, font=("Helvetica", 14), bd=2, relief=tk.SUNKEN
+        )
         self.answer_entry.grid(row=2, column=0, padx=10, pady=(0, 10))
 
-        self.submit_button = tk.Button(main_frame, text="Submit Answer", command=self.submit_answer, font=("Helvetica", 14), bg="#4CAF50", fg="white", relief=tk.RAISED)
+        self.submit_button = tk.Button(
+            main_frame,
+            text="Submit Answer",
+            command=self.submit_answer,
+            font=("Helvetica", 14),
+            bg="#4CAF50",
+            fg="white",
+            relief=tk.RAISED,
+        )
         self.submit_button.grid(row=2, column=1, padx=10)
 
-        self.show_button = tk.Button(main_frame, text="Show Question", command=self.show_question, font=("Helvetica", 14), bg="#2196F3", fg="white", relief=tk.RAISED)
+        self.show_button = tk.Button(
+            main_frame,
+            text="Show Question",
+            command=self.show_question,
+            font=("Helvetica", 14),
+            bg="#2196F3",
+            fg="white",
+            relief=tk.RAISED,
+        )
         self.show_button.grid(row=3, column=0, columnspan=2, pady=10)
 
-        self.feedback_label = scrolledtext.ScrolledText(main_frame, width=60, height=10, font=("Helvetica", 12), wrap=tk.WORD, bg="#f9f9f9")
-        self.feedback_label.grid(row=4, column=0, columnspan=2, pady=10)
+        self.reset_button = tk.Button(
+            main_frame,
+            text="Reset All Scores",
+            command=self.reset_all_scores,
+            font=("Helvetica", 14),
+            bg="#FF5722",
+            fg="white",
+            relief=tk.RAISED,
+        )
+        self.reset_button.grid(row=4, column=0, columnspan=2, pady=10)
+
+        self.feedback_label = scrolledtext.ScrolledText(
+            main_frame,
+            width=60,
+            height=10,
+            font=("Helvetica", 12),
+            wrap=tk.WORD,
+            bg="#f9f9f9",
+        )
+        self.feedback_label.grid(row=5, column=0, columnspan=2, pady=10)
         self.feedback_label.config(state=tk.DISABLED)
 
     def load_topics(self):
@@ -77,3 +124,27 @@ class MemoryGameUI:
             self.feedback_label.delete(1.0, tk.END)
             self.feedback_label.insert(tk.END, f"Feedback: {feedback}")
             self.feedback_label.config(state=tk.DISABLED)
+
+    def reset_all_scores(self):
+        """Resets the scores, intervals, and last answered dates in all JSON files."""
+        topics_dir = "topics"
+        json_files = [f for f in os.listdir(topics_dir) if f.endswith(".json")]
+
+        for json_file in json_files:
+            topic_file_path = os.path.join(topics_dir, json_file)
+            with open(topic_file_path, "r") as f:
+                cards = json.load(f)
+
+            # Reset the fields for each card
+            for card in cards:
+                card["score"] = 0
+                card["interval"] = 1
+                card["last_answered"] = datetime.now().isoformat()
+
+            # Save the changes back to the file
+            with open(topic_file_path, "w") as f:
+                json.dump(cards, f, indent=4)
+
+        messagebox.showinfo(
+            "Success", "All scores, intervals, and dates have been reset!"
+        )

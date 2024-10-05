@@ -3,54 +3,54 @@
         "question": "What is GitLab and how is it different from GitHub?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.380675"
     },
     {
         "question": "How do you create a new project in GitLab?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.380678"
     },
     {
         "question": "What are GitLab CI/CD pipelines and why are they important?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.380680"
     },
     {
         "question": "How do you create a merge request in GitLab?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.380681"
     },
     {
         "question": "What is GitLab Runner and how is it used in CI/CD?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.380682"
     },
     {
         "question": "How do you manage user permissions for a GitLab project?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.380683"
     },
     {
         "question": "What is a GitLab issue and how is it used in project management?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.380684"
     },
     {
         "question": "How do you set up GitLab CI to automatically deploy code after a successful build?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.380685"
     },
     {
         "question": "What are GitLab milestones and how can they help in tracking project progress?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-04T10:30:00.000000"
+        "last_answered": "2024-10-05T08:39:04.380685"
     }
 ]

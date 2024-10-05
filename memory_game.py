@@ -1,9 +1,11 @@
-import os
 import json
+import os
 import random
 from datetime import datetime
-from memory_card import MemoryCard
+
 from llamabot import SimpleBot
+
+from memory_card import MemoryCard
 
 # Initialize model
 model_llm = SimpleBot(
@@ -11,6 +13,7 @@ model_llm = SimpleBot(
     session_name="Default",
     model_name="ollama/llama3.2",
 )
+
 
 class MemoryGame:
     def __init__(self, topic_file):
@@ -27,7 +30,7 @@ class MemoryGame:
                         card_data["question"],
                         card_data["interval"],
                         card_data["score"],
-                        card_data.get("last_answered", datetime.now().isoformat())
+                        card_data.get("last_answered", datetime.now().isoformat()),
                     )
                     self.cards.append(card)
 
@@ -53,7 +56,7 @@ class MemoryGame:
                 "question": card.question,
                 "interval": card.interval,
                 "score": card.score,
-                "last_answered": card.last_answered
+                "last_answered": card.last_answered,
             }
             for card in self.cards
         ]

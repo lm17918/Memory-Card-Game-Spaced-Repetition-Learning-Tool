@@ -1,4 +1,5 @@
 import tkinter as tk
+
 from memory_game_ui import MemoryGameUI
 
 if __name__ == "__main__":
