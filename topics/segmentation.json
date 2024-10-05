@@ -1,0 +1,80 @@
+[
+    {
+        "question": "What is the difference between semantic segmentation and instance segmentation?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "What are some common loss functions used for image segmentation tasks?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "How does the U-Net architecture work for segmentation tasks?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "What is the role of Fully Convolutional Networks (FCNs) in image segmentation?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "How does the Mask R-CNN architecture differ from Faster R-CNN in segmentation tasks?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "What metrics are commonly used to evaluate the performance of a segmentation model?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "What is Intersection over Union (IoU) and why is it important in segmentation tasks?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "How do you prepare your dataset for a segmentation task?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "What data augmentation techniques are useful for improving segmentation model performance?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "What are some common challenges in image segmentation tasks?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "How does dilated convolution help improve the receptive field in segmentation networks?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "What is the purpose of using Conditional Random Fields (CRFs) in post-processing for segmentation tasks?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    },
+    {
+        "question": "How does transfer learning help in segmentation tasks?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-04T10:30:00.000000"
+    }
+]
