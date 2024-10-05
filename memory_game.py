@@ -98,7 +98,10 @@ class MemoryGame:
 
     def check_answer(self, card, user_answer):
         feedback = self.check_answer_with_LLM(card.question, user_answer)
-        score = int(feedback.split("Score: ")[1].split()[0])
+        try:
+            score = int(feedback.split("Score: ")[1].split()[0])
+        except:
+            score = int(feedback.split("score: ")[1].split()[0])
 
         # Update card score and interval based on the user's score
         if score > 6:
