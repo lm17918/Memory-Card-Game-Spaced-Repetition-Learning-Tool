@@ -8,3 +8,4 @@ ollama pull llama3.2
 pip install -r requirements.txt
 
 pre-commit install
+pre-commit autoupdate
