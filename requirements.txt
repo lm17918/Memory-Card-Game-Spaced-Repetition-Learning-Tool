@@ -4,3 +4,4 @@ random
 tkinter
 llamabot
 ollama
+pre-commit

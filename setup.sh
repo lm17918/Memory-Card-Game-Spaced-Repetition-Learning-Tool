@@ -6,3 +6,5 @@ ollama pull llama3.2
 
 # Install Python requirements
 pip install -r requirements.txt
+
+pre-commit install
