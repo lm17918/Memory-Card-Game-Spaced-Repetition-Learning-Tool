@@ -49,8 +49,13 @@ class MemoryGameUI:
         )
         self.question_label.grid(row=3, column=0, columnspan=2, pady=(10, 20))
 
-        self.answer_entry = tk.Entry(
-            main_frame, width=50, font=("Helvetica", 14), bd=2, relief=tk.SUNKEN
+        self.answer_entry = tk.Text(
+            main_frame,
+            width=50,  # Adjust width as needed
+            height=5,  # Adjust height for multiple lines
+            font=("Helvetica", 14),
+            bd=2,
+            relief=tk.SUNKEN,
         )
         self.answer_entry.grid(row=4, column=0, padx=10, pady=(0, 10))
 
@@ -90,7 +95,7 @@ class MemoryGameUI:
         self.feedback_label = scrolledtext.ScrolledText(
             main_frame,
             width=60,
-            height=10,
+            height=15,
             font=("Helvetica", 12),
             wrap=tk.WORD,
             bg="#f9f9f9",
@@ -144,7 +149,7 @@ class MemoryGameUI:
             )  # Assuming you have a method in MemoryGame to provide a hint
             self.feedback_label.config(state=tk.NORMAL)
             self.feedback_label.delete(1.0, tk.END)
-            self.feedback_label.insert(tk.END, f"Hint: {hint}")
+            self.feedback_label.insert(tk.END, hint)
             self.feedback_label.config(state=tk.DISABLED)
         else:
             messagebox.showwarning("Warning", "Please show a question first.")
