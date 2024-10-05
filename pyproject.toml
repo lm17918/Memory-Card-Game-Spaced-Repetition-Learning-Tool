@@ -1,2 +1,7 @@
 [tool.black]
-line-length = 88  # Set the line length (default is 88)
+line-length = 88
+# Add other black configurations here
+
+[tool.isort]
+line_length = 88
+# Other isort settings can go here

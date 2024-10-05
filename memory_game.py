@@ -20,6 +20,7 @@ class MemoryGame:
         self.cards = []
         self.topic_file = topic_file
         self.load_cards()
+        self.last_card = None  # Track the last shown card
 
     def load_cards(self):
         if os.path.exists(self.topic_file):
@@ -64,9 +65,18 @@ class MemoryGame:
         # Sort by the highest priority score
         scored_cards.sort(key=lambda x: x[1], reverse=True)
 
-        # Select the card with the highest priority score
-        top_card = scored_cards[0][0] if scored_cards else None
-        return top_card
+        # Select the card with the highest priority score, avoiding the last card if it was answered incorrectly
+        top_card = None
+        for card, _ in scored_cards:
+            if card != self.last_card:
+                top_card = card
+                break
+
+        if top_card:
+            return top_card
+        else:
+            print("No new questions available.")
+            return None
 
     def save_cards(self):
         cards_data = [
@@ -90,6 +100,7 @@ class MemoryGame:
         feedback = self.check_answer_with_LLM(card.question, user_answer)
         score = int(feedback.split("Score: ")[1].split()[0])
 
+        # Update card score and interval based on the user's score
         if score > 6:
             card.score += 1
             if card.score >= 3:
@@ -98,6 +109,8 @@ class MemoryGame:
             card.score = max(0, card.score - 1)
             card.interval = max(1, card.interval - 1)
 
+        # Save the last answered card
+        self.last_card = card
         card.last_answered = datetime.now().isoformat()
         self.save_cards()
         return feedback
