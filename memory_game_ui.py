@@ -19,7 +19,6 @@ class MemoryGameUI:
         main_frame = tk.Frame(root, bg="#ffffff", bd=2, relief=tk.GROOVE)
         main_frame.pack(padx=20, pady=20)
 
-        # Move the reset button to the top left part of the UI
         self.reset_button = tk.Button(
             main_frame,
             text="Reset All Scores",
@@ -31,13 +30,10 @@ class MemoryGameUI:
         )
         self.reset_button.grid(row=0, column=0, padx=10, pady=5, sticky="w")
 
-        # Adjust the label position to move it more to the left
         self.topic_label = tk.Label(
             main_frame, text="Choose a topic:", font=("Helvetica", 12), bg="#ffffff"
         )
-        self.topic_label.grid(
-            row=0, column=1, padx=(10, 10), pady=5
-        )  # Adjusted padx to (10, 10)
+        self.topic_label.grid(row=0, column=1, padx=(10, 10), pady=5)
 
         self.topic_combobox = ttk.Combobox(main_frame, state="readonly")
         self.topic_combobox.grid(row=1, column=1, columnspan=2, pady=5)
@@ -69,6 +65,17 @@ class MemoryGameUI:
         )
         self.submit_button.grid(row=4, column=1, padx=10)
 
+        self.hint_button = tk.Button(
+            main_frame,
+            text="Hint",
+            command=self.give_hint,
+            font=("Helvetica", 14),
+            bg="#FFC107",
+            fg="black",
+            relief=tk.RAISED,
+        )
+        self.hint_button.grid(row=5, column=1, padx=10, pady=10)
+
         self.show_button = tk.Button(
             main_frame,
             text="Show Question",
@@ -78,7 +85,7 @@ class MemoryGameUI:
             fg="white",
             relief=tk.RAISED,
         )
-        self.show_button.grid(row=5, column=0, columnspan=2, pady=10)
+        self.show_button.grid(row=5, column=0, pady=10)
 
         self.feedback_label = scrolledtext.ScrolledText(
             main_frame,
@@ -128,6 +135,19 @@ class MemoryGameUI:
             self.feedback_label.delete(1.0, tk.END)
             self.feedback_label.insert(tk.END, f"Feedback: {feedback}")
             self.feedback_label.config(state=tk.DISABLED)
+
+    def give_hint(self):
+        """Provides a hint for the current question."""
+        if self.current_card:
+            hint = self.game.get_hint(
+                self.current_card.question
+            )  # Assuming you have a method in MemoryGame to provide a hint
+            self.feedback_label.config(state=tk.NORMAL)
+            self.feedback_label.delete(1.0, tk.END)
+            self.feedback_label.insert(tk.END, f"Hint: {hint}")
+            self.feedback_label.config(state=tk.DISABLED)
+        else:
+            messagebox.showwarning("Warning", "Please show a question first.")
 
     def reset_all_scores(self):
         """Resets the scores, intervals, and last answered dates in all JSON files."""

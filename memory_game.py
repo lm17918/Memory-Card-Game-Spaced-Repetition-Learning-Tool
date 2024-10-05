@@ -9,7 +9,7 @@ from memory_card import MemoryCard
 
 # Initialize model
 model_llm = SimpleBot(
-    "We are doing a game of Spaced repetition to learn concepts. The user will try to answer questions and you need to check if the answer is right and explain what is the answer if it is wrong. Start by writing 'score: ' and then a score to the answer between 0 and 10, where 10 is a completely right and detailed answer.",
+    "We are doing a game of Spaced repetition to learn concepts. The user will try to answer questions and you need to check if the answer is right and explain what is the answer if it is wrong. If you have to provide a hint start you answer with the word ''Hint:' otherwise start by writing 'Score:' and then a score to the answer between 0 and 10, where 10 is a completely right and detailed answer and 6 is a barely acceptable answer.",
     session_name="Default",
     model_name="ollama/llama3.2",
 )
@@ -95,6 +95,12 @@ class MemoryGame:
         prompt = f"Question to answer: '{question}'. User answer: '{user_answer}'"
         generated_text = model_llm(prompt).content
         return generated_text
+
+    def get_hint(self, question):
+        """Generate a hint for the given question using the LLM."""
+        prompt = f"Provide a hint for the question: '{question}'"
+        hint_text = model_llm(prompt).content
+        return hint_text
 
     def check_answer(self, card, user_answer):
         feedback = self.check_answer_with_LLM(card.question, user_answer)
