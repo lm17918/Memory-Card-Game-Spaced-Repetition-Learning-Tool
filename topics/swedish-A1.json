@@ -1,0 +1,453 @@
+[
+    {
+        "question": "What is the Swedish word for 'apple', and how do you use it in a sentence? Translate 'I eat an apple' to Swedish.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "What is the Swedish word for 'book', and how do you use it in a sentence? Translate 'I read a book' to Swedish.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378842"
+    },
+    {
+        "question": "What is the Swedish word for 'house', and how do you use it in a sentence? Translate 'They live in a house' to Swedish.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378850"
+    },
+    {
+        "question": "What is the definite form of 'apple' in Swedish, and how do you use it in a sentence? Translate 'I eat the apple' to Swedish.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378860"
+    },
+    {
+        "question": "What is the indefinite form of 'car' in Swedish, and how do you use it in a sentence? Translate 'He drives a car' to Swedish.",
+        "interval": 2,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378865"
+    },
+    {
+        "question": "What is the plural form of 'book' in Swedish, and how do you use it in a sentence? Translate 'We read books' to Swedish.",
+        "interval": 2,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378870"
+    },
+    {
+        "question": "What is the present tense form of 'to go' (att gå) in Swedish, and how do you use it in a sentence? Translate 'I go to school' to Swedish.",
+        "interval": 2,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378875"
+    },
+    {
+        "question": "What is the present tense form of 'to drink' (att dricka) in Swedish, and how do you use it in a sentence? Translate 'She drinks coffee' to Swedish.",
+        "interval": 3,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378880"
+    },
+    {
+        "question": "What is the Swedish word for 'dog', and how do you use it in a sentence? Translate 'The dog is big' to Swedish.",
+        "interval": 3,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378885"
+    },
+    {
+        "question": "What is the Swedish word for 'cat', and how do you use it in a sentence? Translate 'The cat is small' to Swedish.",
+        "interval": 3,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378890"
+    },
+    {
+        "question": "How do you ask 'Where is the bathroom?' in Swedish?",
+        "interval": 3,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378895"
+    },
+    {
+        "question": "What is the Swedish word for 'friend', and how do you use it in a sentence? Translate 'My friend is happy' to Swedish.",
+        "interval": 4,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378900"
+    },
+    {
+        "question": "What is the Swedish word for 'food', and how do you use it in a sentence? Translate 'I like food' to Swedish.",
+        "interval": 4,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378905"
+    },
+    {
+        "question": "What is the Swedish word for 'family', and how do you use it in a sentence? Translate 'My family is big' to Swedish.",
+        "interval": 4,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378910"
+    },
+    {
+        "question": "What is the Swedish word for 'school', and how do you use it in a sentence? Translate 'I go to school every day' to Swedish.",
+        "interval": 5,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378915"
+    },
+    {
+        "question": "What is the Swedish word for 'weekend', and how do you use it in a sentence? Translate 'On the weekend, I relax' to Swedish.",
+        "interval": 5,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378920"
+    },
+    {
+        "question": "How do you ask 'What time is it?' in Swedish?",
+        "interval": 5,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378925"
+    },
+    {
+        "question": "What is the Swedish word for 'city', and how do you use it in a sentence? Translate 'I live in a big city' to Swedish.",
+        "interval": 5,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378930"
+    },
+    {
+        "question": "What is the Swedish word for 'morning', and how do you use it in a sentence? Translate 'I drink coffee in the morning' to Swedish.",
+        "interval": 6,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378935"
+    },
+    {
+        "question": "What is the Swedish word for 'afternoon', and how do you use it in a sentence? Translate 'In the afternoon, I study' to Swedish.",
+        "interval": 6,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378940"
+    },
+    {
+        "question": "What is the Swedish word for 'evening', and how do you use it in a sentence? Translate 'We eat dinner in the evening' to Swedish.",
+        "interval": 6,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378945"
+    },
+
+    
+    {
+        "question": "What is the difference between 'en' and 'ett' in Swedish, and when do you use them? Translate 'a car' and 'a house' to Swedish.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "How do you form the plural of nouns in Swedish? Translate 'I have apples' and 'I have books' to Swedish.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "How do you use the definite form in Swedish? Translate 'The book is on the table' and 'The apple is red' to Swedish.",
+        "interval": 2,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "What is the basic word order in Swedish (subject-verb-object)? Translate 'She reads a book' and 'We eat breakfast' to Swedish.",
+        "interval": 2,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "How do you form a question in Swedish using inversion (verb-subject)? Translate 'Is she eating?' and 'Do you like coffee?' to Swedish.",
+        "interval": 3,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "How do you negate a sentence in Swedish using 'inte'? Translate 'I do not understand' and 'He does not like fish' to Swedish.",
+        "interval": 3,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "How do you use the present tense in Swedish verbs? Translate 'I work every day' and 'They are walking to school' to Swedish.",
+        "interval": 4,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "How do you use 'att' to indicate the infinitive in Swedish verbs? Translate 'I like to read' and 'He wants to eat' to Swedish.",
+        "interval": 4,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "What is the difference between 'var' and 'vart' (where)? Translate 'Where are you?' and 'Where are you going?' to Swedish.",
+        "interval": 5,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "How do you express possession in Swedish using 'min', 'mitt', and 'mina'? Translate 'This is my book' and 'These are my apples' to Swedish.",
+        "interval": 5,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "How do you form adjectives in Swedish for singular and plural? Translate 'The big house' and 'The big houses' to Swedish.",
+        "interval": 6,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "How do you use the word 'det' (it) in Swedish sentences? Translate 'It is cold' and 'It is a nice day' to Swedish.",
+        "interval": 6,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "How do you form the imperative in Swedish? Translate 'Sit down!' and 'Read the book!' to Swedish.",
+        "interval": 7,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    {
+        "question": "How do you express time in Swedish? Translate 'I work in the morning' and 'We meet in the afternoon' to Swedish.",
+        "interval": 7,
+        "score": 0,
+        "last_answered": "2024-10-05T08:39:04.378834"
+    },
+    
+        {
+            "question": "What is the Swedish word for 'friend'? Translate 'This is my friend' to Swedish.",
+            "interval": 1,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "What is the Swedish word for 'family'? Translate 'I love my family' to Swedish.",
+            "interval": 1,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "How do you say 'good morning' and 'good night' in Swedish? Translate 'Good morning, how are you?' to Swedish.",
+            "interval": 2,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "What is the Swedish word for 'food'? Translate 'I am eating food' to Swedish.",
+            "interval": 2,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "What is the Swedish word for 'water'? Translate 'I am drinking water' to Swedish.",
+            "interval": 3,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "How do you say 'please' and 'thank you' in Swedish? Translate 'Please pass the water' and 'Thank you for the food' to Swedish.",
+            "interval": 3,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "What is the Swedish word for 'today' and 'tomorrow'? Translate 'I am going to the store tomorrow' to Swedish.",
+            "interval": 4,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "How do you say 'I like' and 'I don't like' in Swedish? Translate 'I like coffee but I don't like tea' to Swedish.",
+            "interval": 4,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "What is the Swedish word for 'car'? Translate 'I have a car' to Swedish.",
+            "interval": 5,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "How do you say 'How are you?' in Swedish? Translate 'How are you? I am fine, thank you' to Swedish.",
+            "interval": 5,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "What is the Swedish word for 'school'? Translate 'I go to school every day' to Swedish.",
+            "interval": 6,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "How do you say 'to buy' in Swedish? Translate 'I want to buy some food' to Swedish.",
+            "interval": 6,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "What is the Swedish word for 'work'? Translate 'I work from Monday to Friday' to Swedish.",
+            "interval": 7,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "How do you say 'to live' in Swedish? Translate 'I live in Sweden' and 'I live with my family' to Swedish.",
+            "interval": 7,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "What is the Swedish word for 'house'? Translate 'We live in a house' to Swedish.",
+            "interval": 8,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "How do you say 'to run' in Swedish? Translate 'I run every morning' to Swedish.",
+            "interval": 8,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "What is the Swedish word for 'city'? Translate 'I live in a big city' to Swedish.",
+            "interval": 9,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "How do you say 'to walk' in Swedish? Translate 'We walk to the park' to Swedish.",
+            "interval": 9,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "What is the Swedish word for 'store'? Translate 'I am going to the store' to Swedish.",
+            "interval": 10,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+        {
+            "question": "How do you say 'to write' in Swedish? Translate 'I write a letter' and 'She writes every day' to Swedish.",
+            "interval": 10,
+            "score": 0,
+            "last_answered": "2024-10-05T08:39:04.378834"
+        },
+
+        
+            {
+                "question": "How do you say 'to sleep' in Swedish? Translate 'I sleep at night' and 'He sleeps a lot' to Swedish.",
+                "interval": 1,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "What is the Swedish word for 'today' and 'yesterday'? Translate 'I went to the store yesterday' to Swedish.",
+                "interval": 2,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "How do you say 'to eat' in Swedish? Translate 'We ate breakfast' and 'She eats dinner at six' to Swedish.",
+                "interval": 2,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "What is the past tense of 'to go' in Swedish? Translate 'I went to school yesterday' to Swedish.",
+                "interval": 3,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "How do you say 'to come' in Swedish? Translate 'He came home late' and 'I will come tomorrow' to Swedish.",
+                "interval": 3,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "How do you form the past tense for regular verbs in Swedish? Translate 'I worked yesterday' and 'They walked to school' to Swedish.",
+                "interval": 4,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "What is the Swedish word for 'last week' and 'next week'? Translate 'I will visit you next week' to Swedish.",
+                "interval": 4,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "How do you express future actions in Swedish? Translate 'I will travel tomorrow' and 'She will study later' to Swedish.",
+                "interval": 5,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "What is the Swedish word for 'to drink'? Translate 'I drank water' and 'She will drink coffee' to Swedish.",
+                "interval": 5,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "How do you say 'to be' in Swedish? Translate 'I was happy' and 'We will be there' to Swedish.",
+                "interval": 6,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "What is the Swedish word for 'next year' and 'last year'? Translate 'We will go next year' and 'I traveled last year' to Swedish.",
+                "interval": 6,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "How do you say 'to read' in Swedish? Translate 'I read a book yesterday' and 'He will read a book tomorrow' to Swedish.",
+                "interval": 7,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "How do you form the past tense for irregular verbs in Swedish? Translate 'He wrote a letter' and 'I saw a movie yesterday' to Swedish.",
+                "interval": 7,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "What is the Swedish word for 'yesterday' and 'tomorrow'? Translate 'I will call you tomorrow' and 'I saw you yesterday' to Swedish.",
+                "interval": 8,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "How do you say 'to learn' in Swedish? Translate 'I learned Swedish last week' and 'I will learn more tomorrow' to Swedish.",
+                "interval": 8,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "What is the Swedish word for 'to want'? Translate 'I wanted to go yesterday' and 'He will want to eat later' to Swedish.",
+                "interval": 9,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "How do you say 'to visit' in Swedish? Translate 'We visited them last week' and 'They will visit us next month' to Swedish.",
+                "interval": 9,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "How do you express regular habits in the past in Swedish? Translate 'I used to go to school by bus' to Swedish.",
+                "interval": 10,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            },
+            {
+                "question": "What is the Swedish word for 'morning' and 'evening'? Translate 'I went to bed early yesterday evening' and 'I will wake up early tomorrow morning' to Swedish.",
+                "interval": 10,
+                "score": 0,
+                "last_answered": "2024-10-05T08:39:04.378834"
+            }
+        ]
+        
+    
