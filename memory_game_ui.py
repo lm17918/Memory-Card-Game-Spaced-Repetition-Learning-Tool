@@ -19,13 +19,28 @@ class MemoryGameUI:
         main_frame = tk.Frame(root, bg="#ffffff", bd=2, relief=tk.GROOVE)
         main_frame.pack(padx=20, pady=20)
 
+        # Move the reset button to the top left part of the UI
+        self.reset_button = tk.Button(
+            main_frame,
+            text="Reset All Scores",
+            command=self.reset_all_scores,
+            font=("Helvetica", 14),
+            bg="#FF5722",
+            fg="white",
+            relief=tk.RAISED,
+        )
+        self.reset_button.grid(row=0, column=0, padx=10, pady=5, sticky="w")
+
+        # Adjust the label position to move it more to the left
         self.topic_label = tk.Label(
             main_frame, text="Choose a topic:", font=("Helvetica", 12), bg="#ffffff"
         )
-        self.topic_label.grid(row=0, column=0, padx=10, pady=5)
+        self.topic_label.grid(
+            row=0, column=1, padx=(10, 10), pady=5
+        )  # Adjusted padx to (10, 10)
 
         self.topic_combobox = ttk.Combobox(main_frame, state="readonly")
-        self.topic_combobox.grid(row=0, column=1, pady=5)
+        self.topic_combobox.grid(row=1, column=1, columnspan=2, pady=5)
         self.topic_combobox.bind("<<ComboboxSelected>>", self.on_topic_selected)
 
         self.load_topics()
@@ -36,12 +51,12 @@ class MemoryGameUI:
             font=("Helvetica", 16, "bold"),
             bg="#ffffff",
         )
-        self.question_label.grid(row=1, column=0, columnspan=2, pady=(10, 20))
+        self.question_label.grid(row=3, column=0, columnspan=2, pady=(10, 20))
 
         self.answer_entry = tk.Entry(
             main_frame, width=50, font=("Helvetica", 14), bd=2, relief=tk.SUNKEN
         )
-        self.answer_entry.grid(row=2, column=0, padx=10, pady=(0, 10))
+        self.answer_entry.grid(row=4, column=0, padx=10, pady=(0, 10))
 
         self.submit_button = tk.Button(
             main_frame,
@@ -52,7 +67,7 @@ class MemoryGameUI:
             fg="white",
             relief=tk.RAISED,
         )
-        self.submit_button.grid(row=2, column=1, padx=10)
+        self.submit_button.grid(row=4, column=1, padx=10)
 
         self.show_button = tk.Button(
             main_frame,
@@ -63,18 +78,7 @@ class MemoryGameUI:
             fg="white",
             relief=tk.RAISED,
         )
-        self.show_button.grid(row=3, column=0, columnspan=2, pady=10)
-
-        self.reset_button = tk.Button(
-            main_frame,
-            text="Reset All Scores",
-            command=self.reset_all_scores,
-            font=("Helvetica", 14),
-            bg="#FF5722",
-            fg="white",
-            relief=tk.RAISED,
-        )
-        self.reset_button.grid(row=4, column=0, columnspan=2, pady=10)
+        self.show_button.grid(row=5, column=0, columnspan=2, pady=10)
 
         self.feedback_label = scrolledtext.ScrolledText(
             main_frame,
@@ -84,7 +88,7 @@ class MemoryGameUI:
             wrap=tk.WORD,
             bg="#f9f9f9",
         )
-        self.feedback_label.grid(row=5, column=0, columnspan=2, pady=10)
+        self.feedback_label.grid(row=6, column=0, columnspan=2, pady=10)
         self.feedback_label.config(state=tk.DISABLED)
 
     def load_topics(self):
