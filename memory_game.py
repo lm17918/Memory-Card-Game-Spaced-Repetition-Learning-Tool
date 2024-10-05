@@ -34,21 +34,39 @@ class MemoryGame:
                     )
                     self.cards.append(card)
 
+    def calculate_priority(self, card):
+        now = datetime.now()
+        if card.last_answered:
+            last_answered_time = datetime.fromisoformat(card.last_answered)
+            days_since_answered = (now - last_answered_time).days
+        else:
+            days_since_answered = float("inf")  # Card never answered before
+
+        # Calculate the recency factor based on the interval
+        recency_factor = days_since_answered / card.interval
+
+        # Knowledge penalty: give higher priority to cards with lower scores
+        knowledge_penalty = max(
+            0, (3 - card.score)
+        )  # Example: If score is low, penalty is higher
+
+        # Final priority score
+        priority_score = recency_factor + knowledge_penalty
+        return priority_score
+
     def show_question(self):
         if not self.cards:
             return None
 
-        now = datetime.now()
-        weighted_cards = []
+        # Calculate the priority score for each card
+        scored_cards = [(card, self.calculate_priority(card)) for card in self.cards]
 
-        for card in self.cards:
-            if card.last_answered:
-                last_answered_time = datetime.fromisoformat(card.last_answered)
-                days_since_answered = (now - last_answered_time).days
-                adjusted_interval = max(1, card.interval - days_since_answered)
-                weighted_cards.extend([card] * max(1, 10 - adjusted_interval))
+        # Sort by the highest priority score
+        scored_cards.sort(key=lambda x: x[1], reverse=True)
 
-        return random.choice(weighted_cards) if weighted_cards else None
+        # Select the card with the highest priority score
+        top_card = scored_cards[0][0] if scored_cards else None
+        return top_card
 
     def save_cards(self):
         cards_data = [
@@ -70,7 +88,7 @@ class MemoryGame:
 
     def check_answer(self, card, user_answer):
         feedback = self.check_answer_with_LLM(card.question, user_answer)
-        score = int(feedback.split("score: ")[1].split()[0])
+        score = int(feedback.split("Score: ")[1].split()[0])
 
         if score > 6:
             card.score += 1
