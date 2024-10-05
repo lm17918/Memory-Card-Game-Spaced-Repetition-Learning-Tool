@@ -3,15 +3,16 @@ import os
 import tkinter as tk
 from datetime import datetime
 from tkinter import messagebox, scrolledtext, ttk
+from typing import Optional
 
 from memory_game import MemoryGame
 
 
 class MemoryGameUI:
-    def __init__(self, root):
-        self.root = root
-        self.current_card = None
-        self.game = None
+    def __init__(self, root: tk.Tk) -> None:
+        self.root: tk.Tk = root
+        self.current_card: Optional[MemoryCard] = None
+        self.game: Optional[MemoryGame] = None
 
         self.root.title("Memory Card Game")
         self.root.configure(bg="#f0f0f0")
@@ -51,8 +52,8 @@ class MemoryGameUI:
 
         self.answer_entry = tk.Text(
             main_frame,
-            width=50,  # Adjust width as needed
-            height=5,  # Adjust height for multiple lines
+            width=50,
+            height=5,
             font=("Helvetica", 14),
             bd=2,
             relief=tk.SUNKEN,
@@ -103,27 +104,29 @@ class MemoryGameUI:
         self.feedback_label.grid(row=6, column=0, columnspan=2, pady=10)
         self.feedback_label.config(state=tk.DISABLED)
 
-    def load_topics(self):
-        topics_dir = "topics"
+    def load_topics(self) -> None:
+        topics_dir: str = "topics"
         if not os.path.exists(topics_dir):
             os.makedirs(topics_dir)
 
-        json_files = [f for f in os.listdir(topics_dir) if f.endswith(".json")]
+        json_files: list[str] = [
+            f for f in os.listdir(topics_dir) if f.endswith(".json")
+        ]
         self.topic_combobox["values"] = json_files
 
-    def on_topic_selected(self, event):
-        selected_topic = self.topic_combobox.get()
+    def on_topic_selected(self, event: tk.Event) -> None:
+        selected_topic: str = self.topic_combobox.get()
         if selected_topic:
-            topic_file = os.path.join("topics", selected_topic)
+            topic_file: str = os.path.join("topics", selected_topic)
             self.game = MemoryGame(topic_file)
 
-    def show_question(self):
+    def show_question(self) -> None:
         if self.game:
             card = self.game.show_question()
             if card:
                 self.current_card = card
                 self.question_label.config(text=f"Question: {card.question}")
-                self.answer_entry.delete(0, tk.END)
+                self.answer_entry.delete("1.0", tk.END)
                 self.feedback_label.config(state=tk.NORMAL)
                 self.feedback_label.delete(1.0, tk.END)
                 self.feedback_label.config(state=tk.DISABLED)
@@ -132,21 +135,18 @@ class MemoryGameUI:
         else:
             messagebox.showwarning("Warning", "Please select a topic first.")
 
-    def submit_answer(self):
+    def submit_answer(self) -> None:
         if self.current_card:
-            user_answer = self.answer_entry.get().strip().lower()
-            feedback = self.game.check_answer(self.current_card, user_answer)
+            user_answer: str = self.answer_entry.get("1.0", tk.END).strip().lower()
+            feedback: str = self.game.check_answer(self.current_card, user_answer)
             self.feedback_label.config(state=tk.NORMAL)
             self.feedback_label.delete(1.0, tk.END)
             self.feedback_label.insert(tk.END, f"Feedback: {feedback}")
             self.feedback_label.config(state=tk.DISABLED)
 
-    def give_hint(self):
-        """Provides a hint for the current question."""
+    def give_hint(self) -> None:
         if self.current_card:
-            hint = self.game.get_hint(
-                self.current_card.question
-            )  # Assuming you have a method in MemoryGame to provide a hint
+            hint: str = self.game.get_hint(self.current_card.question)
             self.feedback_label.config(state=tk.NORMAL)
             self.feedback_label.delete(1.0, tk.END)
             self.feedback_label.insert(tk.END, hint)
@@ -154,23 +154,22 @@ class MemoryGameUI:
         else:
             messagebox.showwarning("Warning", "Please show a question first.")
 
-    def reset_all_scores(self):
-        """Resets the scores, intervals, and last answered dates in all JSON files."""
-        topics_dir = "topics"
-        json_files = [f for f in os.listdir(topics_dir) if f.endswith(".json")]
+    def reset_all_scores(self) -> None:
+        topics_dir: str = "topics"
+        json_files: list[str] = [
+            f for f in os.listdir(topics_dir) if f.endswith(".json")
+        ]
 
         for json_file in json_files:
-            topic_file_path = os.path.join(topics_dir, json_file)
+            topic_file_path: str = os.path.join(topics_dir, json_file)
             with open(topic_file_path, "r") as f:
                 cards = json.load(f)
 
-            # Reset the fields for each card
             for card in cards:
                 card["score"] = 0
                 card["interval"] = 1
                 card["last_answered"] = datetime.now().isoformat()
 
-            # Save the changes back to the file
             with open(topic_file_path, "w") as f:
                 json.dump(cards, f, indent=4)
 
