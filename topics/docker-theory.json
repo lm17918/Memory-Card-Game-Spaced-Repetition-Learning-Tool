@@ -1,0 +1,122 @@
+[
+    {
+        "question": "What is Docker, and how does it differ from a virtual machine?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016668"
+    },
+    {
+        "question": "Explain the purpose of Docker Compose and when you would use it.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016677"
+    },
+    {
+        "question": "How do you optimize the size of Docker images?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016678"
+    },
+    {
+        "question": "What is the difference between Docker 'run' and 'start' commands?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016679"
+    },
+    {
+        "question": "How does Docker manage networking, and how would you expose a container's port to the host?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016680"
+    },
+    {
+        "question": "What is a Dockerfile, and what are some best practices for writing one?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016681"
+    },
+    {
+        "question": "How would you handle data persistence in Docker containers?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016682"
+    },
+    {
+        "question": "What is the role of the 'ENTRYPOINT' and 'CMD' instructions in a Dockerfile?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016683"
+    },
+    {
+        "question": "Explain the difference between 'bind mounts' and 'volumes' in Docker.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016684"
+    },
+    {
+        "question": "How do you handle multi-container applications in Docker?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016685"
+    },
+    {
+        "question": "How do you build a Docker image from a Dockerfile?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016686"
+    },
+    {
+        "question": "What command is used to start a container from an image in Docker?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016687"
+    },
+    {
+        "question": "How do you list all running and stopped containers in Docker?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016688"
+    },
+    {
+        "question": "What is the command to stop a running Docker container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016689"
+    },
+    {
+        "question": "How do you remove a Docker container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016690"
+    },
+    {
+        "question": "How can you see the logs of a running container in Docker?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016690"
+    },
+    {
+        "question": "What command is used to remove all unused images, containers, and networks in Docker?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016691"
+    },
+    {
+        "question": "How do you run a Docker container interactively with a terminal session?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016692"
+    },
+    {
+        "question": "How do you export and import a Docker image?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016693"
+    },
+    {
+        "question": "How do you bind a host port to a container port when running a container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.016694"
+    }
+]

@@ -1,0 +1,200 @@
+[
+    {
+        "question": "How do you start a Docker container from an image?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-10-06T08:31:04.690995"
+    },
+    {
+        "question": "How do you create a Docker image from a Dockerfile?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-10-06T08:30:01.228146"
+    },
+    {
+        "question": "How can you run a specific command during the Docker build process?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-10-06T08:46:59.013467"
+    },
+    {
+        "question": "What command do you use to stop a running Docker container?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-10-06T08:33:00.698169"
+    },
+    {
+        "question": "How can you check the logs of a running Docker container?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-10-06T08:33:47.355232"
+    },
+    {
+        "question": "How do you run a Python script inside a Docker container?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-10-06T08:38:19.942733"
+    },
+    {
+        "question": "How do you mount a local directory to a Docker container?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-10-06T08:44:04.598523"
+    },
+    {
+        "question": "How do you list all running Docker containers?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-10-06T08:45:58.567256"
+    },
+    {
+        "question": "How do you remove a stopped Docker container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:47:40.905381"
+    },
+    {
+        "question": "How can you set environment variables when running a Docker container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017814"
+    },
+    {
+        "question": "How can you expose a specific port from a Docker container to the host?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017815"
+    },
+    {
+        "question": "How do you copy files from your host machine into a running Docker container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017815"
+    },
+    {
+        "question": "How do you inspect the details of a running Docker container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017816"
+    },
+    {
+        "question": "How do you create and attach to a Docker container interactively using a shell?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017817"
+    },
+    {
+        "question": "How do you list all Docker images on your system?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017818"
+    },
+    {
+        "question": "How do you remove a Docker image from your system?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017819"
+    },
+    {
+        "question": "How do you restart a stopped Docker container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017820"
+    },
+    {
+        "question": "How do you tag a Docker image with a new name?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017821"
+    },
+    {
+        "question": "How do you push a Docker image to a Docker registry like Docker Hub?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017822"
+    },
+    {
+        "question": "How do you pull a Docker image from a Docker registry?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017823"
+    },
+    {
+        "question": "How do you use a multi-stage build in a Dockerfile to reduce image size?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017824"
+    },
+    {
+        "question": "How do you specify a custom Docker network for your containers?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017825"
+    },
+    {
+        "question": "How do you inspect the network settings of a Docker container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017826"
+    },
+    {
+        "question": "How do you limit the memory usage of a Docker container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017827"
+    },
+    {
+        "question": "How do you run a Docker container in the background (detached mode)?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017828"
+    },
+    {
+        "question": "How do you execute a command inside a running Docker container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017829"
+    },
+    {
+        "question": "How do you set a working directory in a Dockerfile?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017830"
+    },
+    {
+        "question": "How do you check the resource usage (CPU, memory) of a running Docker container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017831"
+    },
+    {
+        "question": "How do you create a Docker volume and attach it to a container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017831"
+    },
+    {
+        "question": "How do you configure Docker to automatically restart a container if it stops?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017832"
+    },
+    {
+        "question": "How do you inspect the environment variables of a running Docker container?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017833"
+    },
+    {
+        "question": "How do you share a Docker image with someone without using Docker Hub?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017834"
+    },
+    {
+        "question": "How do you use Docker to run a Python web application (e.g., Flask or Django)?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T08:27:35.017835"
+    }
+]
