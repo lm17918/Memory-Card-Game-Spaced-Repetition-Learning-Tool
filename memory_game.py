@@ -104,6 +104,7 @@ class MemoryGame:
             card.score += 1
             if card.score >= 3:
                 card.interval += 1
+                card.score = 0
         else:
             card.score = max(0, card.score - 1)
             card.interval = max(1, card.interval - 1)

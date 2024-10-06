@@ -5,6 +5,7 @@ from datetime import datetime
 from tkinter import messagebox, scrolledtext, ttk
 from typing import Optional
 
+from memory_card import MemoryCard
 from memory_game import MemoryGame
 
 
