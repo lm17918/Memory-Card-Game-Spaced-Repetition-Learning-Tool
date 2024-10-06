@@ -1,0 +1,128 @@
+[
+    {
+        "question": "What is Kubernetes, and why is it used?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "Explain the concept of a Kubernetes pod.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "What is a Kubernetes node, and what is its role?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "How do Kubernetes deployments manage application updates?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "What is a Kubernetes service, and why is it necessary?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "How does Kubernetes manage scaling of applications?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "What is the role of a Kubernetes master node?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "Explain the concept of a namespace in Kubernetes.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "What are ConfigMaps and Secrets in Kubernetes, and how do they differ?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "How does Kubernetes handle persistent storage for containers?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "What is a ReplicaSet, and how does it relate to deployments in Kubernetes?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "Explain the difference between a StatefulSet and a Deployment in Kubernetes.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "What is a Kubernetes ingress, and when would you use it?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "How does Kubernetes handle service discovery?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "What is the role of kube-scheduler in Kubernetes?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "What is kubelet, and how does it interact with Kubernetes nodes?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "Explain how Horizontal Pod Autoscaling works in Kubernetes.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "What is the role of etcd in a Kubernetes cluster?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "What are taints and tolerations in Kubernetes, and why are they used?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "What is a DaemonSet in Kubernetes, and when would you use it?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    },
+    {
+        "question": "How does Kubernetes handle network traffic between pods?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-10-06T14:20:00.000000"
+    }
+]
