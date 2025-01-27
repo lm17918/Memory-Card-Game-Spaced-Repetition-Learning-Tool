@@ -9,9 +9,26 @@ from llamabot import SimpleBot
 from memory_card import MemoryCard
 
 model_llm = SimpleBot(
-    "We are doing a game of Spaced repetition to learn concepts. The user will try to answer questions and you need to check if the answer is right and explain what is the answer if it is wrong. If you have to provide a hint start you answer with the word 'Hint:' otherwise start by writing 'Score:' and then a score to the answer between 0 and 10, where 10 is a completely right and detailed answer and 6 is a barely acceptable answer.",
+    """We are playing a spaced repetition game to learn concepts. 
+    Your role is to do the following:
+    
+    1. If the user provides an answer:
+       - Evaluate the answer and rate it on a scale from 0 to 10:
+         * 10 means the answer is completely correct and detailed.
+         * 6 means the answer is barely acceptable but contains some correctness.
+       - Start your response with 'Score:' followed by the score (e.g., Score: 8).
+       - After the score, always provide the ideal, correct, and complete answer 
+         that would be rated 10/10. Explain why the user's answer was incorrect 
+         or incomplete if necessary.
+    
+    2. If the user asks for a hint:
+       - Start your response with 'Hint:' followed by a helpful clue or suggestion. 
+       - Do not evaluate the user's answer or give the correct answer directly.
+    
+    Always clearly distinguish between scoring an answer and providing a hint.
+    Your goal is to help the user learn effectively through clear and detailed feedback.""",
     session_name="Default",
-    model_name="ollama/llama3.2",
+    model_name="ollama/llama3:latest",
 )
 
 

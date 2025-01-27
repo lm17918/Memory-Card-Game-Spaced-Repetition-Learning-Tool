@@ -3,61 +3,61 @@
         "question": "What is Docker, and how does it differ from a virtual machine?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-06T08:27:35.016668"
+        "last_answered": "2024-11-16T21:44:52.206952"
     },
     {
         "question": "Explain the purpose of Docker Compose and when you would use it.",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-06T08:27:35.016677"
+        "score": 1,
+        "last_answered": "2024-11-16T21:54:08.843444"
     },
     {
         "question": "How do you optimize the size of Docker images?",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-06T08:27:35.016678"
+        "score": 1,
+        "last_answered": "2024-11-16T21:56:02.142690"
     },
     {
         "question": "What is the difference between Docker 'run' and 'start' commands?",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-06T08:27:35.016679"
+        "score": 1,
+        "last_answered": "2024-11-16T21:58:04.958308"
     },
     {
         "question": "How does Docker manage networking, and how would you expose a container's port to the host?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-06T08:27:35.016680"
+        "last_answered": "2024-11-16T22:07:07.685056"
     },
     {
         "question": "What is a Dockerfile, and what are some best practices for writing one?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-06T08:27:35.016681"
+        "last_answered": "2024-11-17T16:44:10.604649"
     },
     {
         "question": "How would you handle data persistence in Docker containers?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-06T08:27:35.016682"
+        "last_answered": "2024-11-17T16:48:39.603244"
     },
     {
         "question": "What is the role of the 'ENTRYPOINT' and 'CMD' instructions in a Dockerfile?",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-06T08:27:35.016683"
+        "score": 1,
+        "last_answered": "2024-11-17T16:51:49.228068"
     },
     {
         "question": "Explain the difference between 'bind mounts' and 'volumes' in Docker.",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-06T08:27:35.016684"
+        "last_answered": "2024-11-17T16:53:44.172633"
     },
     {
         "question": "How do you handle multi-container applications in Docker?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-06T08:27:35.016685"
+        "last_answered": "2024-11-17T16:55:31.277942"
     },
     {
         "question": "How do you build a Docker image from a Dockerfile?",

@@ -1,0 +1,50 @@
+[
+    {
+        "question": "What is the Basel Face Model (BFM), and how is it used in facial recognition tasks?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-11-17T16:24:11.622605"
+    },
+    {
+        "question": "What are the main components of the BFM, and how do they contribute to face representation?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-11-17T16:39:19.674659"
+    },
+    {
+        "question": "How does the BFM handle variations in facial expressions and lighting conditions?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-11-17T16:42:29.636322"
+    },
+    {
+        "question": "What are the applications of the Basel Face Model in 3D face reconstruction and recognition?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T16:21:46.694430"
+    },
+    {
+        "question": "How does the BFM incorporate both shape and texture models to represent facial variations?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T16:21:46.694434"
+    },
+    {
+        "question": "What is the difference between using BFM and traditional 2D face recognition models?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T16:21:46.694439"
+    },
+    {
+        "question": "Explain the role of Principal Component Analysis (PCA) in the Basel Face Model.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T16:21:46.694458"
+    },
+    {
+        "question": "What are the challenges in fitting the BFM to real-world face images?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T16:21:46.694462"
+    }
+]

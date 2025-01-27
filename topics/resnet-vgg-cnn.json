@@ -1,0 +1,272 @@
+[
+    {
+        "question": "What is a Convolutional Neural Network (CNN), and how does it differ from a traditional neural network?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-11-18T20:20:05.132486"
+    },
+    {
+        "question": "What is the purpose of using convolution layers in CNNs?",
+        "interval": 1,
+        "score": 1,
+        "last_answered": "2024-11-18T20:26:59.574140"
+    },
+    {
+        "question": "What is the difference between VGG16 and VGG19 architectures?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-18T20:29:43.863226"
+    },
+    {
+        "question": "What is a residual block in ResNet, and why is it important?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-18T20:31:36.818816"
+    },
+    {
+        "question": "Explain the concept of overfitting and how CNNs help mitigate it.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-12-24T11:51:22.852779"
+    },
+    {
+        "question": "What is the role of pooling layers in CNNs?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T17:20:31.987303"
+    },
+    {
+        "question": "What are the main differences between the AlexNet and ResNet architectures?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T17:35:44.321059"
+    },
+    {
+        "question": "What is batch normalization, and why is it used in CNNs?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T17:45:55.001230"
+    },
+    {
+        "question": "Explain the concept of the vanishing gradient problem and how it is addressed in ResNet.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T17:55:07.890102"
+    },
+    {
+        "question": "What is the difference between stride and padding in convolutional layers?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T18:10:00.123456"
+    },
+    {
+        "question": "What is the purpose of dropout in CNN training, and how does it prevent overfitting?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T18:15:32.234567"
+    },
+    {
+        "question": "How does transfer learning work with CNNs, and when should it be used?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T18:30:15.987654"
+    },
+    {
+        "question": "What is the role of the activation function in CNNs? Give examples of common activation functions used in CNNs.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T18:45:23.111213"
+    },
+    {
+        "question": "What is the ReLU activation function, and why is it widely used in CNNs?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T18:55:30.765432"
+    },
+    {
+        "question": "What is the difference between a fully connected layer and a convolutional layer?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T19:05:33.654321"
+    },
+    {
+        "question": "What are dilated convolutions, and when might they be used in CNNs?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T19:15:12.543210"
+    },
+    {
+        "question": "What is the role of padding in CNNs, and how does it affect the output dimensions?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T19:25:00.876543"
+    },
+    {
+        "question": "Explain the concept of a feature map in CNNs.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T19:35:22.987654"
+    },
+    {
+        "question": "How does the number of filters in a convolutional layer affect the network's performance?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T19:45:33.123456"
+    },
+    {
+        "question": "What is the purpose of the softmax function in CNNs, and where is it commonly used?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T19:55:44.234567"
+    },
+    {
+        "question": "How is CNN performance evaluated, and what metrics are commonly used?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T20:05:55.345678"
+    },
+    {
+        "question": "What are the benefits of using a deeper CNN over a shallow one?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T20:15:12.456789"
+    },
+    {
+        "question": "What is a fully connected layer, and how does it contribute to the final prediction in CNNs?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T20:25:00.567890"
+    },
+    {
+        "question": "What is the purpose of a global average pooling layer?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T20:35:11.678901"
+    },
+    {
+        "question": "How does a CNN handle color images compared to grayscale images?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T20:45:33.789012"
+    },
+    {
+        "question": "What is the difference between max pooling and average pooling?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T20:55:44.890123"
+    },
+    {
+        "question": "What are the advantages of using CNNs over traditional image processing techniques?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T21:05:12.901234"
+    },
+    {
+        "question": "What is an encoder-decoder architecture, and where is it used in CNN-based models?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T21:15:44.012345"
+    },
+    {
+        "question": "How can the performance of a CNN be improved through data augmentation?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T21:25:55.123456"
+    },
+    {
+        "question": "What is the difference between a classification and a regression problem in the context of CNNs?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T21:35:23.234567"
+    },
+    {
+        "question": "What is the significance of the kernel size in a convolutional layer?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T21:45:12.345678"
+    },
+    {
+        "question": "What is an attention mechanism, and how can it be incorporated into CNNs?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T21:55:44.456789"
+    },
+    {
+        "question": "What are the key differences between a 1D, 2D, and 3D convolution?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T22:05:55.567890"
+    },
+    {
+        "question": "What are skip connections in ResNet, and how do they improve training?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T22:15:33.678901"
+    },
+    {
+        "question": "How does the use of a smaller kernel size affect the model performance in a CNN?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T22:25:12.789012"
+    },
+    {
+        "question": "What is the concept of receptive field in CNNs, and why is it important?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T22:35:44.890123"
+    },
+    {
+        "question": "How can you visualize the filters or feature maps in CNNs?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T22:45:12.901234"
+    },
+    {
+        "question": "What is a U-Net architecture, and what kind of problems is it used for?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T22:55:33.012345"
+    },
+    {
+        "question": "How do CNNs perform in time-series data analysis compared to traditional models?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T23:05:55.123456"
+    },
+    {
+        "question": "What are some common challenges when training CNNs on large datasets?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T23:15:12.234567"
+    },
+    {
+        "question": "What is the difference between shallow and deep learning in the context of CNNs?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T23:25:44.345678"
+    },
+    {
+        "question": "Explain how multi-scale CNNs work and when they are useful.",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T23:35:55.456789"
+    },
+    {
+        "question": "What is the role of the optimizer in training CNNs, and how does it affect learning?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T23:45:33.567890"
+    },
+    {
+        "question": "What is the impact of the learning rate on CNN training?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-17T23:55:12.678901"
+    },
+    {
+        "question": "How can the computational cost of training CNNs be reduced?",
+        "interval": 1,
+        "score": 0,
+        "last_answered": "2024-11-18T00:05:44.789012"
+    }
+]

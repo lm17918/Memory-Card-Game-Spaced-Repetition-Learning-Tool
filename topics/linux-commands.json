@@ -2,79 +2,79 @@
     {
         "question": "How do you list all files in a directory, including hidden files, using the command line?",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-05T08:39:04.379131"
+        "score": 1,
+        "last_answered": "2024-10-08T12:01:36.718801"
     },
     {
         "question": "What command do you use to move a file from one directory to another in Linux?",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-05T08:39:04.379134"
+        "score": 1,
+        "last_answered": "2024-10-08T12:02:24.435008"
     },
     {
         "question": "How do you rename a file in Linux using the command line?",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-05T08:39:04.379136"
+        "score": 1,
+        "last_answered": "2024-10-08T12:17:04.798628"
     },
     {
         "question": "How do you find a specific file by its name in Linux?",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-05T08:39:04.379137"
+        "score": 1,
+        "last_answered": "2024-10-08T12:17:51.753135"
     },
     {
         "question": "How can you check the available disk space on a Linux system?",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-05T08:39:04.379138"
+        "score": 1,
+        "last_answered": "2024-10-08T12:18:19.600929"
     },
     {
         "question": "What is the difference between the 'cp' and 'mv' commands in Linux?",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-05T08:39:04.379139"
+        "score": 1,
+        "last_answered": "2024-10-08T12:05:11.004418"
     },
     {
         "question": "How do you change file permissions in Linux using the command line?",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-05T08:39:04.379160"
+        "score": 1,
+        "last_answered": "2024-10-08T12:19:00.772819"
     },
     {
         "question": "What command is used to display the contents of a file in Linux?",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-05T08:39:04.379161"
+        "score": 1,
+        "last_answered": "2024-10-08T12:29:42.497723"
     },
     {
         "question": "How can you display the last 10 lines of a file in Linux?",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-05T08:39:04.379162"
+        "score": 1,
+        "last_answered": "2024-10-08T12:30:45.813665"
     },
     {
         "question": "How do you kill a running process by its process ID (PID) in Linux?",
         "interval": 1,
-        "score": 0,
-        "last_answered": "2024-10-05T08:39:04.379163"
+        "score": 1,
+        "last_answered": "2024-10-08T12:07:33.823759"
     },
     {
         "question": "How do you create a symbolic link (symlink) to a file in Linux?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-05T08:39:04.379164"
+        "last_answered": "2024-10-08T13:30:49.879620"
     },
     {
         "question": "What is the difference between 'chmod' and 'chown' commands in Linux?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-05T08:39:04.379165"
+        "last_answered": "2024-10-08T12:09:55.634034"
     },
     {
         "question": "How do you search for a keyword inside a file using the command line in Linux?",
         "interval": 1,
         "score": 0,
-        "last_answered": "2024-10-05T08:39:04.379166"
+        "last_answered": "2024-10-08T12:13:59.443965"
     }
 ]
